@@ -1,1 +1,1 @@
-This is my scripts for MA3 plugins.
+This is my scripts for MA3 plugins!
