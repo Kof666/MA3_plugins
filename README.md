@@ -1,1 +1,3 @@
-This is my scripts for MA3 plugins!
+MA3 plugins!
+
+These are simple scripts in lua made for plugins in MA light MA3 lighting console. I am making these scripts to learn the MA3 API and the lua language, so please be patient with me. Feel free to test the scripts and let me know if you make any improvements.
