@@ -1,4 +1,4 @@
---- Module that park all active fixtures in programmer in MA3 as plugin
+--- Module that park all active fixtures in programmer in MA3 as plugin!
 -- @module park
 
 --- Script that parks all active programmer.
