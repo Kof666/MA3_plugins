@@ -29,8 +29,13 @@ return function ()
     -- Printf("Success = "..tostring(returnTable.success))
     -- Printf("Result = "..returnTable.result)
 
-    for name,value in pairs(returnTable.inputs) do
-        Printf("Input '%s' = '%s'",name,tostring(value))
-	Cmd("park " .. value)
+    if returnTable.success and returnTable.result == 2 then
+        for name,value in pairs(returnTable.inputs) do
+            Printf("Input '%s' = '%s'",name,tostring(value))
+            Cmd("park " .. value)
+        end
+    elseif returnTable.success and returnTable.result == 1 then
+        Printf('Park is cancelled!')
     end
+
 end
